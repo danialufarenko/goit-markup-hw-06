@@ -209,7 +209,7 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 700px;
+  width: 700px;
   height: 120px;
   margin-bottom: var(--main-margin);
 }
