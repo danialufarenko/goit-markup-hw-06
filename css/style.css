@@ -181,10 +181,9 @@ header .container {
 /*------------HERO------------*/
 
 .hero-container {
-  padding: 200px 452px 210px 452px;
+  padding: 200px 0;
   max-width: 1600px;
-  min-width: 700px;
-  margin: 0 auto;
+  min-width: 1200px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -237,12 +236,12 @@ header .container {
 }
 /*------------TEXT------------*/
 .text {
-  padding: 95px;
+  padding: 95px 0;
 }
 .list-text {
   display: flex;
 }
-.text-items {
+.text-items:not(:last-child) {
   margin-right: var(--main-margin);
 }
 .text-elements {
@@ -319,7 +318,7 @@ header .container {
 /*------------TEAM------------*/
 .team {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 .team-title {
   font-family: inherit;
@@ -329,7 +328,7 @@ header .container {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding: 94px 0 50px;
+  padding-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -404,6 +403,9 @@ header .container {
   fill: currentColor;
 } */
 /*------------CLIENTS------------*/
+.regular-clients {
+  padding: 94px 0;
+}
 .client-text {
   font-family: inherit;
   font-weight: 700;
@@ -422,7 +424,6 @@ header .container {
 .clients-item {
   width: 170px;
   height: 92px;
-  margin-bottom: 94px;
 }
 .clients-item:not(:last-child) {
   margin-right: var(--main-margin);
@@ -453,7 +454,7 @@ header .container {
 /*------------FOOTER------------*/
 .footer {
   background-color: #2f303a;
-  padding: 60px;
+  padding: 60px 0;
 }
 .logo-footer {
   width: 145px;
